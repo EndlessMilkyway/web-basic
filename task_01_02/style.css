@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+#site-name {
+    font-size: 5em;
+}
+
+.header-nav {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3em;
+    background-color: lightgrey;
+}  
+
+nav {
+    border-top: 0.1em solid black;
+    border-bottom: 0.1em solid black;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+nav div {
+    display: inline;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+.main-container {
+    border-bottom: 0.1em solid black;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+}
+
+section {
+    border-right: 0.1em solid black;
+    padding: 20px;
+    width: 90vw;
+
+}
+
+article {
+    padding: 20px;
+    text-align: left;
+}
+
+article:nth-child(1) {
+    border-top: 0.1em solid black;
+}
+
+article:nth-child(2) {
+    border-top: 0.1em solid black;
+}
+
+article:nth-child(3) {
+    border-top: 0.1em solid black;
+    border-bottom: 0.1em solid black;
+}
+
+aside {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 10vw;
+}
+
+.sidebar {
+    margin: 0px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3em;
+}
+
+ul {
+    margin-top: 1vh;
+    padding: 0px;
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
