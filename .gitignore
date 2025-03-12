@@ -1,2 +1,15 @@
 .DS_Store
 .vscode
+
+./task_03/.gradle
+./task_03/build
+
+./task_03/.idea/modules.xml
+./task_03/.idea/jarRepositories.xml
+./task_03/.idea/compiler.xml
+./task_03/.idea/libraries/
+./task_03/*.iws
+./task_03/*.iml
+./task_03/*.ipr
+./task_03/out/
+
