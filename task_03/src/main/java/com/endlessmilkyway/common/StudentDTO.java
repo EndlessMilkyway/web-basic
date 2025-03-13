@@ -28,9 +28,9 @@ public class StudentDTO {
     public String toString() {
         return "[" +
                 "학번 : " + id +
-                "성명 : " + name +
-                "학과 : " + dept +
-                "연락처 : " + phoneNumber +
+                " 성명 : " + name +
+                " 학과 : " + dept +
+                " 연락처 : " + phoneNumber +
                 "]";
     }
 }
