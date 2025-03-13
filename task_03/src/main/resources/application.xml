@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="com.endlessmilkyway.common.StudentDTO">
+        <constructor-arg name="id" value="123456" />
+        <constructor-arg name="name" value="김영렬" />
+        <constructor-arg name="dept" value="컴퓨터과학과" />
+        <constructor-arg name="phoneNumber" value="010-1234-5678" />
+    </bean>
+</beans>
